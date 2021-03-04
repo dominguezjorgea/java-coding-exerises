@@ -83,13 +83,13 @@ public class BalancedString {
 
     public static void main(String[] args) {
         BalancedString bc = new BalancedString();
-        System.out.println("Enter a brakets String to valide if it's balanced: ");
+        System.out.println("Enter a brackets String to valid if it's balanced: ");
         String inputString = bc.getInput().next();
         boolean isBalanced = bc.balancedString(inputString);
         if(isBalanced)
-            System.out.println("The braket string entered is balanced!");
+            System.out.println("The bracket string entered is balanced!");
         else
-            System.out.println("The braket string entered isn't balanced!");
+            System.out.println("The bracket string entered isn't balanced!");
 
 
     }
